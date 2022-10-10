@@ -2,6 +2,7 @@
     background: url(../img/caminho.jpg\ \(1\).jpg) no-repeat center / cover;
     height: calc(100vh - 72px);
     width: 100%; 
+    
 }
 
 .banner__titulo {

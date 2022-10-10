@@ -1,0 +1,40 @@
+.rodape__logo {
+    width: 7%;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 2rem;
+    border: 2px solid black;
+    
+    
+}
+
+.rodape {
+    background: #e5e5e5;
+    padding: 10px;
+    
+}
+.rodape__whatsapp {
+    width: 1.5rem;
+    
+}
+.rodape__contato {
+    color: green;
+    font-family: Pacifico, cursive;
+    text-shadow: 0 4px 4px rgba( 0, 0, 0, 0.75);
+    font-size: 30px;
+    
+
+}
+
+.rodape__lista {   
+    list-style: none;
+}
+
+.rodape__item {
+    text-align: center;
+
+}
+
+.rodape__item--peso {
+    font-weight: 900;
+}
