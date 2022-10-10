@@ -1,0 +1,38 @@
+.oquefazemos {
+    background: #e5e5e5;
+    
+}
+
+.oquefazemos__titulo {
+    text-align: center;
+    color: green;
+    font-family: Pacifico, cursive;
+    font-size: 60px;
+    text-shadow: 0 4px 4px rgba( 0, 0, 0, 0.75);
+    padding: 2rem;
+
+}
+
+.oquefazemos__conteudo {
+    display: flex;
+}
+
+.oquefazemos__descrição {
+    color: #595959;
+    font-weight: 100;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 3rem;
+    text-align: center;
+}
+
+.oquefazemos__imagem {
+    margin: 1rem 8rem 2rem 0;
+    width: 100%;  
+}
+
+@media screen and (max-width: 768px) {
+    .oquefazemos__imagem {
+        display: none;
+    }
+}

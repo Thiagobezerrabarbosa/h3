@@ -1,0 +1,38 @@
+.equipe {
+    background:linear-gradient(#e5e5e5, green)
+    
+}
+
+.equipe__titulo {
+    text-align: center;
+    color: green;
+    font-family: Pacifico, cursive;
+    font-size: 60px;
+    text-shadow: 0 4px 4px rgba( 0, 0, 0, 0.75);
+    padding: 2rem;
+
+}
+
+.equipe__conteudo {
+    display: flex;
+}
+
+.equipe__descrição {
+    color: #595959;
+    font-weight: 100;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 3rem;
+    text-align: center;
+}
+
+.equipe__imagem {
+    margin: 1rem 8rem 2rem 0;
+    width: 30%;  
+}
+
+@media screen and (max-width: 768px) {
+    .equipe__imagem {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+.banner__imagem {
+    background: url(../img/caminho.jpg\ \(1\).jpg) no-repeat center / cover;
+    height: calc(100vh - 72px);
+    width: 100%; 
+    
+}
+
+.banner__titulo {
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    font-size: 55px;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba( 0, 0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}

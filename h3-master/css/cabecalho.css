@@ -1,0 +1,60 @@
+.cabelho__titulo {
+    color: white;
+    text-shadow: 0 4px 4px rgba( 0, 0, 0, 0.75);
+    margin-right: 20%;
+}
+
+.cabecalho {
+    align-items: center;
+    background:radial-gradient(white, green);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;   
+}
+.menu__lista {
+    display: flex;
+}
+
+.menu__link {
+    color: white;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 18px;
+}
+.menu__link.ativo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__item:last-child .menu__link {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .cabelho__titulo {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        width: 20%;
+    }
+
+    .logo {
+        display: none;
+    }
+    
+    .menu__lista {
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
