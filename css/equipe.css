@@ -30,3 +30,9 @@
     margin: 1rem 8rem 2rem 0;
     width: 30%;  
 }
+
+@media screen and (max-width: 768px) {
+    .equipe__imagem {
+        display: none;
+    }
+}
