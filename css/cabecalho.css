@@ -41,21 +41,13 @@
 
 @media screen and (max-width: 768px) {
     .cabelho__titulo {
-        font-size: 12px;
-        padding: 0;
-        margin: 0;
-        width: 20%;
+        display: none;
     }
 
     .logo {
         display: none;
     }
-    
-    .menu__lista {
-        padding: 0;
-        margin: 0;
-        align-items: center;
-        flex-wrap: nowrap;
+      
     }
     @media screen and (max-width: 0px) {
         .menu__lista {
@@ -64,4 +56,4 @@
             flex-wrap: nowrap;
             margin-right: 90%;
     }
-    }}
+    }

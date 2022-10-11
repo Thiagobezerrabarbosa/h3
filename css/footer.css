@@ -38,10 +38,3 @@
 .rodape__item--peso {
     font-weight: 900;
 }
-
-@media screen and (max-width: 768px) {
-    .rodape__logo {
-        width: 19%;
-        
-    }
-}
