@@ -57,4 +57,11 @@
         align-items: center;
         flex-wrap: nowrap;
     }
-}
+    @media screen and (max-width: 0px) {
+        .menu__lista {
+            padding: 0;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            margin-right: 90%;
+    }
+    }}
