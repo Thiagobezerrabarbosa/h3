@@ -40,8 +40,32 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .menu {
+        margin: 0 2px;
+        padding: 0;
+    }
+
+    .menu__lista{
+        display: flex;
+        text-align: center;
+    }
+
+    .cabecalho {
+        padding: 0;
+    }
+    
+    .menu__link.ativo {
+        font-size: 10px;
+        margin: 0 0.4rem;
+        padding: 0;
+        
+}
+    
     .cabelho__titulo {
-        display: none;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
     }
 
     .logo {
@@ -49,11 +73,4 @@
     }
       
     }
-    @media screen and (max-width: 0px) {
-        .menu__lista {
-            padding: 0;
-            align-items: flex-start;
-            flex-wrap: nowrap;
-            margin-right: 90%;
-    }
-    }
+    

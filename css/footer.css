@@ -1,5 +1,5 @@
 .rodape__logo {
-    width: 7%;
+    width: 16%;
     position: absolute;
     border-radius: 50%;
     margin-left: 2rem;
@@ -10,11 +10,12 @@
 
 .rodape {
     background: #e5e5e5;
-    padding: 10px;
+    padding: 1rem;
     
 }
 .rodape__whatsapp {
     width: 1.5rem;
+    
     
 }
 .rodape__contato {
@@ -37,4 +38,57 @@
 
 .rodape__item--peso {
     font-weight: 900;
+}
+
+.rodape__descricao {
+    padding: 1rem 0 0 0;
+    font-weight: 600;
+}
+
+.botao__rodape {
+    background-color: green;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+    transition: 1s;   
+}
+
+.botao__rodape:hover {
+    transform: scale(1.2);
+}
+
+.rodape__botao--descricao {
+    text-decoration: none;
+    color: white;
+
+}
+
+.rodape__whatsapp--descricao {
+    text-decoration: none;
+    color: black;
+}
+
+@media  screen and (max-width: 768px) {
+    .rodape__logo {
+        width: 22%;
+        
+
+    }
+
+    .rodape {
+        padding-bottom: 5rem;
+    }
+
+    .botao__rodape {
+        padding: 1rem;
+    }
+
+    .rodape__contato {
+        text-align: end;
+        margin-right: 2rem;
+    }
+
+    .rodape__item--peso {
+        text-align: end;
+    }
 }

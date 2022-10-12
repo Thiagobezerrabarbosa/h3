@@ -21,8 +21,13 @@
 }
 
 .sobre__imagem {
-    width: 30%;
+    width: 40%;
     border-radius: 50%;
-    
-    
+      
+}
+@media  screen and (max-width: 768px) {
+    .sobre__imagem {
+        width: 100%;
+        border-radius: 0%;
+    }
 }
