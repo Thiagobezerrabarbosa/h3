@@ -95,4 +95,8 @@
     .rodape__item--peso {
         text-align: end;
     }
+
+    .rodape__descricao {
+        margin-top: 70px;
+    }
 }
