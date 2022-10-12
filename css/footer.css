@@ -68,6 +68,10 @@
     color: black;
 }
 
+.rodape__whatsapp--descricao:hover {
+    text-decoration: underline;
+}
+
 @media  screen and (max-width: 768px) {
     .rodape__logo {
         width: 22%;

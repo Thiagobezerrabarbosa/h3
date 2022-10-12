@@ -4,10 +4,11 @@ header {
     top: 0; 
 }
 
-.cabelho__titulo {
+.cabecalho__titulo {
     color: white;
     text-shadow: 0 4px 4px rgba( 0, 0, 0, 0.75);
     margin-right: 20%;
+
 }
 
 .cabecalho {
@@ -25,7 +26,7 @@ header {
     color: white;
     margin-right: 1.25rem;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 .menu__link.ativo {
     color: #333333;
@@ -61,14 +62,14 @@ header {
     }
     
     .menu__link.ativo {
-        font-size: 10px;
+        font-size: 9px;
         margin: 0 0.4rem;
         padding: 0;
         
 }
     
-    .cabelho__titulo {
-        font-size: 12px;
+    .cabecalho__titulo {
+        font-size: 10px;
         margin: 0;
         padding: 0;
     }
